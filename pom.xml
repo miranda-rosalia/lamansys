@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11s</maven.compiler.target>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -48,6 +48,19 @@
             <version>5.9.2</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
+    <!-- Maven Surefire plugin to run tests -->
+    <build>
+        <plugins>
+            <!-- plugin to run test cases from maven -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                    <release>19</release>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

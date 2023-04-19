@@ -19,7 +19,7 @@ public class BaseChromeTest extends BaseTest{
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
-        options.addArguments("webdriver.chrome.unhandledPromptBehavior: dismiss");
+        options.addArguments("--allowed-ips");
  //       options.addArguments("--enable-automation");
        //("unhandledPromptBehavior","dismiss");
         options.addArguments("--disable-notifications");

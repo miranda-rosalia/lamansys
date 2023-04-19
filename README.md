@@ -1,3 +1,9 @@
+#### Requirements
+Driver chrome v.111.0.5563.64 = https://chromedriver.storage.googleapis.com/index.html?path=111.0.5563.64/ 
+
+Java 19.0.1
+
+
 ## <a name="api-exercises">TECHNICAL TEST</a>
 
 #### Exercises

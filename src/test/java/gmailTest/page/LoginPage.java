@@ -33,9 +33,8 @@ public class LoginPage extends BaseChromeTest {
         }
         return this;
     }
-    public HomePage submitIdentifierNext() {
+    public void submitIdentifierNext() {
         this.driver.findElement(identifierNextButtonLocator).click();
-        return new HomePage(driver);
     }
     public HomePage submitPasswordNext() {
         this.driver.findElement(passwordNextButtonLocator).click();
